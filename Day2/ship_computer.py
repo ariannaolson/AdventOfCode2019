@@ -49,7 +49,7 @@ class ShipComputer:
 def main():
     comp = ShipComputer("intcode.txt")
     print("Inputs are", comp.find_inputs_for(19690720))
-    #comp.print_intcode()
+    # comp.print_intcode()
 
 
 if __name__ == "__main__":
